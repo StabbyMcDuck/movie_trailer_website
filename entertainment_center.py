@@ -1,6 +1,7 @@
 import fresh_tomatoes
 import media
 
+# Movies to include in 'movies'
 casper = media.Movie("Casper", "A ghost finds a friend.",
 					 "http://firetheimagination.ca/images/productImages/orig/casper_movie.jpg",  # NOQA
 					 "https://youtu.be/e8RATQJIngU")
@@ -46,7 +47,9 @@ the_hobbit = media.Movie("The Hobbit",
 			 "http://static2.hypable.com/wp-content/uploads/2012/09/New-Hobbit-Poster.jpg",  # NOQA
 			 "https://youtu.be/SDnYMbYB-nU")
 
+# list all the movies from the instances above
 movies = [casper, black_swan, groundhog_day, the_shining, back_to_the_future,
 		  slc_punk, big_lebowski, super_troopers, the_hobbit]
 
+# send the movies list to fresh_tomatoes.py, which makes the webpage
 fresh_tomatoes.open_movies_page(movies)
