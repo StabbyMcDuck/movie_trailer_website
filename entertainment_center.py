@@ -2,20 +2,20 @@ import fresh_tomatoes
 import media
 
 # Movies to include in 'movies'
-casper = media.Movie("Casper", "A ghost finds a friend.",
-					 "http://firetheimagination.ca/images/productImages/orig/casper_movie.jpg",  # NOQA
-					 "https://youtu.be/e8RATQJIngU")
+casper = media.Movie("Casper", 
+		     "A ghost finds a friend.",
+		     "http://firetheimagination.ca/images/productImages/orig/casper_movie.jpg",  # NOQA
+		     "https://youtu.be/e8RATQJIngU")
 
-black_swan = media.Movie("Black Swan", "A ballerina loses her grip on reality",
-						 "http://www.filmofilia.com/wp-content/uploads/2010/08/blackswan_poster-535x793.jpg",  # NOQA
-						 "https://youtu.be/5jaI1XOB-bs")
+black_swan = media.Movie("Black Swan", 
+			 "A ballerina loses her grip on reality",
+			 "http://www.filmofilia.com/wp-content/uploads/2010/08/blackswan_poster-535x793.jpg",  # NOQA
+			 "https://youtu.be/5jaI1XOB-bs")
 
 groundhog_day = media.Movie("Groundhog Day",
 			    "It's always Grondhog Day for Phil...",
 			    "http://ia.media-imdb.com/images/M/MV5BMTU0MzQyNTExMV5BMl5BanBnXkFtZTgwMjA0Njk1MDE@._V1_UY1200_CR87,0,630,1200_AL_.jpg",  # NOQA
 			    "https://youtu.be/tSVeDx9fk60")
-
-# groundhog_day.show_trailer()
 
 the_shining = media.Movie("The Shining",
 			  "A family spends a winter in a remote hotel",
